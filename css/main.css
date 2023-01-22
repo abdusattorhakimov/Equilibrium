@@ -1,0 +1,166 @@
+/* outfit-300 - latin */
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../fonts/outfit-v6-latin-300.woff2") format("woff2"), url("../fonts/outfit-v6-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* outfit-regular - latin */
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/outfit-v6-latin-regular.woff2") format("woff2"), url("../fonts/outfit-v6-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* outfit-600 - latin */
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/outfit-v6-latin-600.woff2") format("woff2"), url("../fonts/outfit-v6-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit";
+  background: #15023d;
+}
+
+.container {
+  width: 100%;
+  max-width: 35rem;
+  margin: 0 auto;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  padding-right: 2.4rem;
+  padding-left: 2.4rem;
+  background: #15263f;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+  cursor: pointer;
+}
+@media screen and (max-width: 427px) {
+  .container {
+    max-width: 32.7rem;
+  }
+}
+
+.bac-img {
+  max-width: 30.2rem;
+  max-height: 30.2rem;
+  border-radius: 8px;
+  background: url("./../../imeges/pnj/kubikrubikCopy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-content: center;
+  transition: 0.3s;
+  margin-bottom: 2.4rem;
+}
+.bac-img .bac-img__img {
+  width: inherit;
+  height: inherit;
+  opacity: 0;
+}
+@media screen and (max-width: 427px) {
+  .bac-img .bac-img__img {
+    width: 27.8rem;
+    height: inherit;
+  }
+}
+.bac-img .bac-img__img:hover {
+  opacity: 1;
+}
+
+.titel h1 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 1.6rem;
+  color: #ffffff;
+}
+.titel h1:hover {
+  color: #00fff8;
+}
+.titel p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.44;
+  color: #8bacd9;
+  margin-bottom: 2.4rem;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 2.4rem;
+}
+.item h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+}
+
+.item-1 h2 {
+  color: #00fff8;
+}
+
+.site__line {
+  height: 1px;
+  background: #2e405a;
+  border: none;
+  margin-bottom: 1.6rem;
+}
+
+.titel-list {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+}
+
+.titel-list__item1 {
+  margin-right: 1.6rem;
+}
+
+.titel-list__item2 {
+  margin-right: 5px;
+}
+
+.titel-list__item3 {
+  color: #ffffff;
+}
+.titel-list__item3:hover {
+  color: #00fff8;
+}/*# sourceMappingURL=main.css.map */

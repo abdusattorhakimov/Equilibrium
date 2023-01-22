@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit";
+  background: #15023d;
+}
+.container {
+  width: 100%;
+  max-width: 35rem;
+  margin: 0 auto;
+  padding: {
+    top: 2.4rem;
+    bottom: 2.4rem;
+    right: 2.4rem;
+    left: 2.4rem;
+  }
+  background: #15263f;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+  cursor: pointer;
+  @include responsive(mabel) {
+    max-width: 32.7rem;
+  }
+}

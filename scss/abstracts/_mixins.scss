@@ -1,0 +1,7 @@
+@mixin responsive ($sizi){
+    @if $sizi == mabel {
+        @media screen  and (max-width:427px){
+            @content;
+        }
+    }
+}
